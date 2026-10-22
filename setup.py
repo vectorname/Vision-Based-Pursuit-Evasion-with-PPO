@@ -1,0 +1,20 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="evasion",
+    version="0.1.0",
+    description="Vision-guided pursuit-evasion control with PPO",
+    packages=find_packages(),
+    include_package_data=True,
+    zip_safe=False,
+    install_requires=[
+        "gymnasium>=0.28",
+        "matplotlib>=3.6",
+        "numpy>=1.23",
+        "opencv-python>=4.7",
+        "Pillow>=9.0",
+        "pyglet==1.5.27",
+        "six>=1.16",
+        "torch>=2.0",
+    ],
+)

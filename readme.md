@@ -1,4 +1,4 @@
-# Vision-Based Pursuit Evasion with PPO
+# Vision-Based-Pursuit-Evasion-with-PPO
 
 This is a vision-based continuous-control project built on the
 [OpenAI Multi-Agent Particle Environments](https://github.com/openai/multiagent-particle-envs).
